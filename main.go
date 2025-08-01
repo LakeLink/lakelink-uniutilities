@@ -8,8 +8,6 @@ import (
 func main() {
 	godotenv.Load()
 
-	LoadConfig()
-
 	r := gin.Default()
 
 	r.SetTrustedProxies(nil)
